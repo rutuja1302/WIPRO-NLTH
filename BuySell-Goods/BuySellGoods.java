@@ -32,7 +32,7 @@
 import java.util.Scanner;
 public class BuySellGoods {
 	public static void main(String[] args) {
-		int res; //initialize variable to store the two products with highest sales valueresult
+		int res; //initialize variable to store result
 		Scanner scan = new Scanner(System.in);
 		//read n 
 		int numProducts = scan.nextInt();
@@ -53,7 +53,7 @@ public class BuySellGoods {
 				}
 			}
 		}
-		res = saleValue[0] + saleValue[1];
-		System.out.println(res);
-	}
+		res = saleValue[0] + saleValue[1]; //add the first two elements of the arry i.e the highest two sales
+		System.out.println(res);  //print output
+	} 
 }
