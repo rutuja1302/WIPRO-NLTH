@@ -8,5 +8,6 @@
 5. Feel Good - The apparel company "FeelGood" has collected a list of the sales values of the N highest selling brands of products during the festive season. Each brand is identified by a unique ID numbered 0 - (N-1) in the list. From this list the company wishes to determine the Kth largest sales value for a given day. Write an algorithm to help the company determine the sales value of the Kth largest selling product.
 6. Buy Sell Goods - Write an algorithm to help the Buy Sell Goods company calculate the total sales value of the two highest selling products on its website.
 7. Bucket ID - A data company wishes to store its data files on the server. They wish to store N files. Each file has a particular size.The bucket ID is calculated as the sum of digits of its file size. Write an algorithm to find the bucket IDs where the files are stored.
+8. Bingo - A game company has designed an online lottery game, Bingo. In this game, N number cards are displayed. The values of these can be negative as well as positive. We have to write a program to accept N cards and determine 2 card values giving the highest product amongst all, and the return the sum of these two card values.
 
 Note: Each Program's complete program statement with sample test cases, explanation and outputs are uploaded in their respective folders.
