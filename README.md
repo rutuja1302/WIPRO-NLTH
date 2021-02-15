@@ -12,5 +12,6 @@
 9. Climate Today - "ClimateToday" is a media company that provides commercial weather forecasting services. The first line of input consists of three integers - days, minRange, maxRange. The second line consists of N separated integers - temp1, temp2... temp N-1. Write an algorithm to help the company prepare the list of temperatures that are not included in the range min to max.
 10. Keys - Given three numbers, write an algorithm to find the key using the mentioned formula. Formula:  key = [SMALLEST digit in the thousands place of all three numbers][LARGEST digit in the hundreds place of all three numbers][SMALLEST digit in the tens place of all three numbers][LARGEST digit in the units place of all three numbers]
 11. Online Maths Tutorial - In an online maths tutorial a student is given a list of N numbers. Print N space-separated integers representing the sum of each element in the list.
+12. Unique authors - An online book reading community's grid displays books in a specific format. Write an algorithm to help the community find the count of unique author's initials present in the given batch of books.
 
 Note: Each Program's complete program statement with sample test cases, explanation and outputs are uploaded in their respective folders.
