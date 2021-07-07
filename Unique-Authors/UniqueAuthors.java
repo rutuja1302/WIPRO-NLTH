@@ -29,7 +29,7 @@ public class UniqueAuthor {
 		Scanner scan = new Scanner(System.in);
 		String authors = scan.next();  //read user input
 		int unique=0;  //initialize result
-		for(int i=0;i<authors.length()-1;i++) {
+		for(int i=0;i<authors.length();i++) {
 			int count = 0; //variable to hold the count of author's repeating names
 			for(int j=0;j<authors.length();j++) {
 				//if i==j that means it will count itself so we skip the loop if indexes are same for both the loop
@@ -39,7 +39,7 @@ public class UniqueAuthor {
 					count++;
 			}
 			//if count variable is 0 that means the author's name is not repeated and hence it is a unique name
-			if(count>0) {
+			if(count==0) {
 				unique++;
 			}
 		}
